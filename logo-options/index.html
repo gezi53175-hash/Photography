@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>云朵一键部署平台 Logo 方案</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: #eef2f7;
+        color: #111827;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      }
+      main {
+        margin: 0 auto;
+        max-width: 1180px;
+        padding: 48px 24px 72px;
+      }
+      h1 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin: 0 0 10px;
+      }
+      .intro {
+        color: #667085;
+        font-size: 16px;
+        margin: 0 0 28px;
+      }
+      .grid {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      article {
+        background: #fff;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        border-radius: 18px;
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+        padding: 18px;
+      }
+      article img {
+        border-radius: 16px;
+        display: block;
+        width: 100%;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 16px 0 8px;
+      }
+      p {
+        color: #667085;
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0;
+      }
+      code {
+        background: #f3f4f6;
+        border-radius: 6px;
+        color: #374151;
+        padding: 2px 6px;
+      }
+      @media (max-width: 780px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>云朵一键部署平台 Logo 方案</h1>
+      <p class="intro">围绕“云朵、部署、控制台、一键发布、开源平台”做了 5 个方向。SVG 文件都在当前目录，可直接使用或继续精修。</p>
+      <section class="grid">
+        <article>
+          <img src="./cloud-launch.svg" alt="Cloud Launch logo" />
+          <h2>方案 A：Cloud Launch</h2>
+          <p>蓝色云朵加向上箭头，表达上传、发布和部署。适合 SaaS 官网主标识。</p>
+        </article>
+        <article>
+          <img src="./yd-terminal.svg" alt="YD Terminal logo" />
+          <h2>方案 B：YD Terminal</h2>
+          <p>深色控制台风格，强调开发者工具属性。适合控制台、CLI、开源社区。</p>
+        </article>
+        <article>
+          <img src="./cloud-button.svg" alt="Cloud Button logo" />
+          <h2>方案 C：Cloud Button</h2>
+          <p>云朵内嵌播放按钮，突出“一键启动、一键上线”。识别直接，营销感更强。</p>
+        </article>
+        <article>
+          <img src="./yd-flow.svg" alt="YD Flow logo" />
+          <h2>方案 D：YD Flow</h2>
+          <p>云端连接 Git、API、数据库和部署节点，适合强调平台能力矩阵。</p>
+        </article>
+        <article>
+          <img src="./yd-minimal.svg" alt="YD Minimal logo" />
+          <h2>方案 E：YD Minimal</h2>
+          <p>把 YD 字母和云朵轮廓结合，更像长期品牌符号，适合 App icon 和 favicon 延展。</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

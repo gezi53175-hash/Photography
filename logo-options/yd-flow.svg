@@ -1,0 +1,12 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="200" rx="32" fill="#F6F7FB"/>
+  <g transform="translate(62 38)">
+    <rect x="4" y="36" width="38" height="38" rx="12" fill="#111827"/>
+    <rect x="110" y="36" width="38" height="38" rx="12" fill="#111827"/>
+    <rect x="57" y="92" width="38" height="38" rx="12" fill="#111827"/>
+    <path d="M42 55H110M76 74V92" stroke="#2563EB" stroke-width="8" stroke-linecap="round"/>
+    <path d="M84 19C73 3 48 5 40 25C25 24 13 35 13 50C13 66 26 78 42 78H122C137 78 149 66 149 51C149 37 138 26 124 25C119 8 98 2 84 19Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+  <text x="242" y="92" fill="#111827" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="850">云朵平台</text>
+  <text x="244" y="129" fill="#667085" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="500">Git · API · Database · Deploy</text>
+</svg>
