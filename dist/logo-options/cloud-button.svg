@@ -1,0 +1,11 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="200" rx="32" fill="#FFFFFF"/>
+  <g transform="translate(64 40)">
+    <circle cx="70" cy="70" r="64" fill="#FEE2E2"/>
+    <path d="M106 96H43C27.5 96 15 83.9 15 68.9C15 54.4 26.5 42.5 41 42C46.6 28.6 59.9 20 75.2 20C93.5 20 108.9 32.8 112.9 50.1C125.1 52.1 134 61.4 134 72.8C134 85.6 123.1 96 109.5 96H106Z" fill="#EF4444"/>
+    <circle cx="78" cy="70" r="23" fill="white"/>
+    <path d="M73 60L87 70L73 80V60Z" fill="#EF4444"/>
+  </g>
+  <text x="240" y="89" fill="#111827" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="850">一键部署</text>
+  <text x="242" y="128" fill="#6B7280" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="500">Click once. Ship online.</text>
+</svg>
