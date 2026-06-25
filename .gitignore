@@ -1,7 +1,15 @@
 node_modules/
-dist/
 .vite/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
 figma-root.png
+.DS_Store
+
+# Keep built assets available for platforms that deploy dist directly.
+dist/*
+!dist/index.html
+!dist/assets/
+!dist/assets/**
+!dist/logo-options/
+!dist/logo-options/**
